@@ -2,7 +2,7 @@
 
 Benchmarking Stan under Dynamic Overclocking with ThrottleStop.
 
-StanOverclockingBenchmarker.Rmd &nbsp;&nbsp; R markdown. Incorporates Stan's R interface, RStan.
+- StanOverclockingBenchmarker.Rmd &nbsp;&nbsp; R markdown. Incorporates Stan's R interface, RStan.<br />
 
 The file may be used in conjunction with e.g., RStudio.
 
