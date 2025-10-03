@@ -2,8 +2,7 @@
 ### Instructions
 
 - Windows 11
-    This code is designed for RStudio on Windows 11. It may run on comparable
-    versions of Windows, e.g., Windows 10.
+    This code is designed for RStudio on Windows 11. It *may* run on Windows 10.
 
 - Admin Execution
     The code is designed for execution with administrator privileges, i.e.
@@ -13,6 +12,7 @@
     It's assumed Ghostscript is available on the system, and an invocation path
     has been set in the RStudio environment variables "GS_CMD" and "R_GSCMD",
     i.e., the path to a relevant executable such as "gswin64c.exe".
+    The code was not designed for use with Ghostscript more recent than version 10.00.0.
 
 - PowerShell
     It's assumed PowerShell is available on the system. It's typically installed
@@ -21,7 +21,7 @@
 - Stan
      It's assumed R and RStudio have been configured to enable execution of
      RStan code (Stan's R interface). For more information, see:
-     https://mc-stan.org/users/interfaces/rstan.html
+     https://mc-stan.org/rstan/
 
 - ThrottleStop
     The code is designed for use with ThrottleStop. The code will however run
@@ -1012,3 +1012,4 @@ stopifnot(!is.null(background_services_enable(tmp)))
 rm(tmp)
 
 ```
+
