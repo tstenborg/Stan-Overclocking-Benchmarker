@@ -22,8 +22,11 @@ Adapted from Stenborg (2025), below.</figcaption>
 
 ### Software Requirements
 
+- Ghostscript 10.00.0.<br />
 - R.<br />
 - R IDE, e.g., RStudio.<br />
+
+N.B. The code was not designed for use with Ghostscript more recent than version 10.00.0.
 
 ### Reference
 
